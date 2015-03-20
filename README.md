@@ -17,3 +17,9 @@ Show the source code of the current page
 ###dev/prod
 Switch the current page from the .dev version to the .be version et vice versa.
 An exception is added for my personal home page [www.megasnort.com](http://www.megasnort.com) because it's a .com.
+
+###google
+Execute a Google Query of the selected text. If no text is selected, you get a prompt.
+
+###maps
+Execute a Google Maps query of the selected text. If no text is selected, you get a prompt.

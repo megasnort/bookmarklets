@@ -1,11 +1,11 @@
 <!DOCTYPE NETSCAPE-Bookmark-file-1>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Bookmarks</TITLE>
-<H1>Bookmarks</H1>
+<TITLE>Bookmarklets</TITLE>
+<H1>Bookmarklets</H1>
 <DL><p>
     <DT><A HREF="javascript:for(var f=document.forms,i=f.length;i--;)f[i].setAttribute('novalidate','');">novalidate</A>
     <DT><A HREF="javascript:void(window.open('view-source:'+location.href),'_blank');">src</A>
     <DT><A HREF="javascript:s=window.location.href;if(s.search(/\.dev/i)!=-1){/*really custom for me!*/if(s.search(/megasnort/i)!=-1){n=s.replace(/\.dev/i,'.com');}else{n=s.replace(/\.dev/i,'.be');}}else{n=s.replace(/(\.be|\.com)/gi,'.dev');}window.location.href=n;">dev/prod</A>
+    <DT><A HREF="javascript:window.location='https://www.google.be/maps/?q='+encodeURIComponent(getSelection().toString() || window.prompt('Location:'));">maps</A>
+    <DT><A HREF="javascript:window.location='http://www.google.com/search?q='+encodeURIComponent(getSelection().toString() || window.prompt('Google:'));">google</A>
 </DL>
-
-

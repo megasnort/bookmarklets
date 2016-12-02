@@ -11,7 +11,6 @@ My impressively small collection of Bookmarklets.
 ###filler
 Fill in the active/first non-search form with sensible defaults. You might want to change the defaults to your own data.
 
-
 ###novalidate
 Disable HTML5 validation of all forms on a page so the server side validation you created can be tested.
 
@@ -27,3 +26,6 @@ Execute a Google Query of the selected text. If no text is selected, you get a p
 
 ###maps
 Execute a Google Maps query of the selected text. If no text is selected, you get a prompt.
+
+###pdf
+When you have a Google Presentation open, download the PDF-version **with** the notes (I use this for my teaching: one file to rule them all)
